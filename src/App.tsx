@@ -2,42 +2,47 @@
 import React, { useState } from "react";
 import Style from "./style";
 
+const  params = (new URL(document.location.toString())).searchParams;
+const hInit = parseFloat(params.get('h') || '0')
+const sInit = parseFloat(params.get('s') || '0')
+
 function App() {
-  const [mainColor, setMainColor] = useState("#a9a9a9");
-  const [subColor, setSubColor] = useState("#343a40");
-  const isDebug = false;
+  const [h, setH] = useState(hInit)
+  const [s, setS] = useState(sInit)
+  const mainColor = `hsl(${h}, ${s}%, 60%)`
+  const subColor = `hsl(${h+60}, ${s+30}%, 60%)`
+  const isDebug = true;
 
   return (
     <>
       <Style mainColor={mainColor} subColor={subColor} />
-      {isDebug && (
-        <>
+        <div style={{display: isDebug?'block':'none'}}>
           <div className="bg-danger vw-100 mb-3 fixed-top">
             <p>DEBUG ZONE</p>
             <label>
-              メインカラー
+              H
               <input
-                type="color"
-                value={mainColor}
+                type="number"
+                value={h}
                 onChange={(e) => {
-                  setMainColor(e.target.value);
+                  setH(parseFloat(e.target.value));
                 }}
               />
             </label>
             <label>
-              サブカラー
+              S
               <input
-                type="color"
-                value={subColor}
+                type="number"
+                value={s}
                 onChange={(e) => {
-                  setSubColor(e.target.value);
+                  setS(parseFloat(e.target.value));
+
                 }}
               />
             </label>
           </div>
           <div style={{ marginBottom: "100px" }}></div>
-        </>
-      )}
+        </div>
 
       <Content />
     </>
