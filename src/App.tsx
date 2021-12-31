@@ -249,78 +249,6 @@ function Content() {
                 </div>
               </div>
             </div>
-            <div className="col-md-4">
-              <div className="card mb-4 border border-0">
-                <img
-                  src="img/menu-image-4.jpg"
-                  alt=""
-                  className="border card-img-top"
-                />
-                <div className="card-body">
-                  <h3 className="card-title">SNACK</h3>
-                  <p className="card-text mb-lg-4">
-                    親譲りの無鉄砲で小供の時から損ばかりしている。小学校に居る時分学校の二階から飛び降りて一週間ほど
-                  </p>
-                  <div className="text-center">
-                    <a
-                      className="btn  bg-sub text-white d-block d-md-inline-block mb-2 mb-md-0"
-                      href="sample/index.html"
-                      role="button"
-                    >
-                      メニューをみる
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="col-md-4">
-              <div className="card mb-4 border border-0">
-                <img
-                  src="img/menu-image-5.jpg"
-                  alt=""
-                  className="border card-img-top"
-                />
-                <div className="card-body">
-                  <h3 className="card-title">DESSERT</h3>
-                  <p className="card-text mb-lg-4">
-                    親譲りの無鉄砲で小供の時から損ばかりしている。小学校に居る時分学校の二階から飛び降りて一週間ほど
-                  </p>
-                  <div className="text-center">
-                    <a
-                      className="btn  bg-sub text-white d-block d-md-inline-block mb-2 mb-md-0"
-                      href="sample/index.html"
-                      role="button"
-                    >
-                      メニューをみる
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="col-md-4">
-              <div className="card mb-4 border border-0">
-                <img
-                  src="img/menu-image-6.jpg"
-                  alt=""
-                  className="border card-img-top"
-                />
-                <div className="card-body">
-                  <h3 className="card-title">DRINK</h3>
-                  <p className="card-text mb-lg-4">
-                    親譲りの無鉄砲で小供の時から損ばかりしている。小学校に居る時分学校の二階から飛び降りて一週間ほど
-                  </p>
-                  <div className="text-center">
-                    <a
-                      className="btn  bg-sub text-white d-block d-md-inline-block mb-2 mb-md-0"
-                      href="sample/index.html"
-                      role="button"
-                    >
-                      メニューをみる
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
           </div>
         </div>
       </div>
@@ -350,63 +278,7 @@ function Content() {
             </div>
           </div>
 
-          <div className="row py-5">
-            <div className="col-12 col-lg-5 order-1 p-lg-0 mb-3">
-              <img src="img/gallery-image-2.jpg" alt="" className="w-100" />
-            </div>
-            <div className="col-12 col-lg-5 order-2 mr-md-auto">
-              <h3 className="mb-3 h2 text-white">タイトルが入ります</h3>
-              <p className="text-white">
-                親譲りの無鉄砲で小供の時から損ばかりしている。小学校に居る時分学校の二階から飛び降りて一週間ほど腰を抜かした事がある。
-                なぜそんな無闇をしたと聞く人があるかも知れぬ。別段深い理由でもない。新築の二階から首を出していたら、同級生の一人が冗談に、
-                いくら威張っても、そこから飛び降りる事は出来まい。弱虫やーい。と囃した
-              </p>
-            </div>
-          </div>
-
-          <div className="row py-5">
-            <div className="col-12 col-lg-5 order-md-2 p-lg-0 mb-3">
-              <img src="img/gallery-image-3.jpg" alt="" className="w-100" />
-            </div>
-            <div className="col-12 col-lg-5 order-md-1 ml-md-auto">
-              <h3 className="mb-3 h2 text-white">タイトルが入ります</h3>
-              <p className="text-white">
-                親譲りの無鉄砲で小供の時から損ばかりしている。小学校に居る時分学校の二階から飛び降りて一週間ほど腰を抜かした事がある。
-                なぜそんな無闇をしたと聞く人があるかも知れぬ。別段深い理由でもない。新築の二階から首を出していたら、同級生の一人が冗談に、
-                いくら威張っても、そこから飛び降りる事は出来まい。弱虫やーい。と囃した
-              </p>
-            </div>
-          </div>
         </div>
-      </div>
-
-      {/* <!-- アクセス --> */}
-      <div className="accsess pt-2">
-        <div className="container text-center">
-          <h2 className="display-3 pb-3">ACCSESS</h2>
-          <div className="mb-3 text-center">
-            <p className="mb-0">
-              アクセス：JR「浜松町」下車&ensp;
-              <br className="d-block d-md-none" />
-              南口改札&ensp;徒歩12分
-            </p>
-            <p className="mb-0">
-              都営地下鉄三田線「芝公園」&ensp;
-              <br className="d-block d-md-none" />
-              (I05)下車&ensp;徒歩2分
-            </p>
-            <p>
-              都営地下鉄浅草線・大江戸線「大門」&ensp;
-              <br className="d-block d-md-none" />
-              (A09・E20)下車&ensp;徒歩5分
-            </p>
-          </div>
-        </div>
-        {/* <!-- 地図 --> */}
-        <iframe
-          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12963.312118305756!2d139.7671248!3d35.6812362!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x277c49ba34ed38!2z5p2x5Lqs6aeF!5e0!3m2!1sja!2sjp!4v1559551150824!5m2!1sja!2sjp"
-          title="map"
-        ></iframe>
       </div>
 
       {/* <!-- 下部コンテンツ --> */}
