@@ -131,11 +131,16 @@ function Content() {
           <div className="row py-5">
             <div className="col-lg-6">
               <h2 className="party-title mx-auto h3">
-                パーティ・二次会など貸切できます！
+                Can be reserved for parties and after parties!
               </h2>
               <p>
-                親譲りの無鉄砲で小供の時から損ばかりしている。小学校に居る時分学校の二階から飛び降りて一週間ほど腰を抜かした事がある。
-                なぜそんな無闇をしたと聞く人があるかも知れぬ。別段深い理由でもない。
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                sunt in culpa qui officia deserunt mollit anim id est laborum.
               </p>
               <div className="d-flex flex-row mb-3">
                 <img
@@ -153,15 +158,20 @@ function Content() {
             <div className="col-lg-6">
               <img src="img/party-right.jpg" alt="" className="w-100 mb-3" />
               <p className="mb-5">
-                親譲りの無鉄砲で小供の時から損ばかりしている。小学校に居る時分学校の二階から飛び降りて一週間ほど腰を抜かした事がある。
-                なぜそんな無闇をしたと聞く人があるかも知れぬ。別段深い理由でもない。新築の二階から首を出していたら、同級生の一人が冗談に、いくら威張っても、そこから飛び降りる事は出来まい。
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                sunt in culpa qui officia deserunt mollit anim id est laborum.{" "}
               </p>
               {/* <!-- ボタン --> */}
               <button
                 type="button"
                 className="btn  btn-lg d-block mx-auto bg-sub text-white"
               >
-                パーティプランをみる
+                View Party Plan
               </button>
             </div>
           </div>
@@ -173,8 +183,13 @@ function Content() {
         <div className="container">
           <h2 className="text-center display-3 py-2">MENU</h2>
           <p className="mx-auto w-75">
-            親譲りの無鉄砲で小供の時から損ばかりしている。小学校に居る時分学校の二階から飛び降りて一週間ほど腰を抜かした事がある。
-            なぜそんな無闇をしたと聞く人があるかも知れぬ。別段深い理由でもない。
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat. Duis aute irure dolor in
+            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+            culpa qui officia deserunt mollit anim id est laborum.
           </p>
           <div className="row">
             <div className="col-md-4">
@@ -187,7 +202,8 @@ function Content() {
                 <div className="card-body">
                   <h3 className="card-title">DAILY SPECIAL</h3>
                   <p className="card-text mb-lg-4">
-                    親譲りの無鉄砲で小供の時から損ばかりしている。小学校に居る時分学校の二階から飛び降りて一週間ほど
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut labore et dolore magna
                   </p>
                   <div className="text-center">
                     <a
@@ -195,7 +211,7 @@ function Content() {
                       href="sample/index.html"
                       role="button"
                     >
-                      メニューをみる
+                      View Menu
                     </a>
                   </div>
                 </div>
@@ -211,7 +227,9 @@ function Content() {
                 <div className="card-body">
                   <h3 className="card-title">LUNCH SET</h3>
                   <p className="card-text mb-lg-4">
-                    親譲りの無鉄砲で小供の時から損ばかりしている。小学校に居る時分学校の二階から飛び降りて一週間ほど
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
                   </p>
                   <div className="text-center">
                     <a
@@ -219,7 +237,7 @@ function Content() {
                       href="sample/index.html"
                       role="button"
                     >
-                      メニューをみる
+                      View Menu
                     </a>
                   </div>
                 </div>
@@ -235,7 +253,7 @@ function Content() {
                 <div className="card-body">
                   <h3 className="card-title">MORNING SET</h3>
                   <p className="card-text mb-lg-4">
-                    親譲りの無鉄砲で小供の時から損ばかりしている。小学校に居る時分学校の二階から飛び降りて一週間ほど
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   </p>
                   <div className="text-center">
                     <a
@@ -243,7 +261,7 @@ function Content() {
                       href="sample/index.html"
                       role="button"
                     >
-                      メニューをみる
+                      View Menu
                     </a>
                   </div>
                 </div>
@@ -259,8 +277,7 @@ function Content() {
         <div className="container">
           <h2 className="text-center display-3 pb-3 text-white">GALLERY</h2>
           <p className="mx-auto mb-5 col-md-10 text-white">
-            親譲りの無鉄砲で小供の時から損ばかりしている。小学校に居る時分学校の二階から飛び降りて一週間ほど腰を抜かした事がある。
-            なぜそんな無闇をしたと聞く人があるかも知れぬ。別段深い理由でもない。
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit,
           </p>
         </div>
         <div className="container-fluid">
@@ -269,15 +286,15 @@ function Content() {
               <img src="img/gallery-image-1.jpg" alt="" className="w-100" />
             </div>
             <div className="col-12 col-lg-5 order-md-1 ml-md-auto">
-              <h3 className="mb-3 h2 text-white">タイトルが入ります</h3>
+              <h3 className="mb-3 h2 text-white">title</h3>
               <p className="text-white">
-                親譲りの無鉄砲で小供の時から損ばかりしている。小学校に居る時分学校の二階から飛び降りて一週間ほど腰を抜かした事がある。
-                なぜそんな無闇をしたと聞く人があるかも知れぬ。別段深い理由でもない。新築の二階から首を出していたら、同級生の一人が冗談に、
-                いくら威張っても、そこから飛び降りる事は出来まい。弱虫やーい。と囃した
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut a
               </p>
             </div>
           </div>
-
         </div>
       </div>
 
@@ -297,10 +314,10 @@ function Content() {
                       className="h-100 col-lg-6 p-0 mb-3 mb-lg-0"
                     />
                     <div className="col-lg-6">
-                      <h3>タイトルが入ります</h3>
+                      <h3>Title</h3>
                       <p>
-                        親譲りの無鉄砲で小供の時から損ばかりしている。小学校に居る時分学校の二階から飛び降りて一週間ほど腰を抜かした事がある。
-                        なぜそんな無闇をしたと聞く人があるかも知れぬ。別段
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                        sed do eiusmod tempor incididunt ut labor
                       </p>
                       <span>
                         <i className="fas fa-heart"></i> 609
@@ -317,10 +334,17 @@ function Content() {
                       className="h-100 col-lg-6 p-0 mb-3 mb-lg-0"
                     />
                     <div className="col-lg-6">
-                      <h3>タイトルが入ります</h3>
+                      <h3>Sample Title</h3>
                       <p>
-                        親譲りの無鉄砲で小供の時から損ばかりしている。小学校に居る時分学校の二階から飛び降りて一週間ほど腰を抜かした事がある。
-                        なぜそんな無闇をしたと聞く人があるかも知れぬ。別段
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                        sed do eiusmod tempor incididunt ut labore et dolore
+                        magna aliqua. Ut enim ad minim veniam, quis nostrud
+                        exercitation ullamco laboris nisi ut aliquip ex ea
+                        commodo consequat. Duis aute irure dolor in
+                        reprehenderit in voluptate velit esse cillum dolore eu
+                        fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+                        non proident, sunt in culpa qui officia deserunt mollit
+                        anim id est laborum.
                       </p>
                       <span>
                         <i className="fas fa-heart"></i> 609
