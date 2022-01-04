@@ -230,7 +230,7 @@ const Style:FC<Props> = ({mainColor, subColor}) =>(
       background-image: url("../img/cafe-image.jpg");
       background-size: cover;
       background-position: center center;
-      height: 650px;
+      height: 400px;
       box-shadow: 0px 5px 6px 0px #e2e2e2;
       border-radius: 0;
     }
